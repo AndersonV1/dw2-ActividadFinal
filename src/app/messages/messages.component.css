@@ -1,0 +1,25 @@
+/* MessagesComponent's private CSS styles */
+h2 {
+  color: #00aaff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  background-color: rgb(171, 231, 6);
+}
+
+.clear {
+  color: #fff;
+  background-color: #6fb2d0; /* Celeste bajito */
+  margin-bottom: 12px;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  height: 2em; /* Cambio de altura a 2em */
+  display: flex; /* Cambio de display a flex */
+  align-items: center; /* Alineación vertical centrada */
+  justify-content: center; /* Alineación horizontal centrada */
+}
+
+.clear:hover {
+  color: white;
+  background-color: #204d74;
+}

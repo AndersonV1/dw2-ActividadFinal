@@ -1,0 +1,28 @@
+
+<!--<div *ngIf="hero">
+
+    <h2>Detalles {{hero.name | uppercase}}</h2>
+    <div><span>Id: </span>{{hero.id}}</div>
+    <div>
+      <label for="hero-name">Nombre</label>
+      <input id="hero-name" [(ngModel)]="hero.name" placeholder="Nombre">
+    </div>
+  
+  </div>-->
+
+  <div *ngIf="hero">
+    <h2>{{hero.name | uppercase}} Detalles</h2>
+    <br>
+    <img [src]="hero.imagen" alt="joma.blanca.jpg">
+
+    <div><span>Id: </span>{{hero.id}}</div>
+    <div>
+      <label for="hero-name">Nombre Zapatillas: </label>
+      <input id="hero-name" [(ngModel)]="hero.name" placeholder="Nombre Heroe"/>
+    </div>
+  <br>
+    <div><label>calzado: </label>{{hero.calzado}}</div> <!-- Mostrando el calzado -->
+    <br>
+    <div><label>Cantidad </label>{{hero.Cantidad}}</div><!-- Mostrando el cantidad-->
+    <button type="button" (click)="goBack()">Atras</button>
+  </div>
